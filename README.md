@@ -1,2 +1,2 @@
 # WEB-javascript
-# self study
+# self_study
