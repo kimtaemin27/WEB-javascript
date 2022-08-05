@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		for(let i = 0; true; i++) {
+			alert(i + ' 번째')
+			
+			const isContinue = confirm('continue?')
+			
+			if(!isContinue){
+				break
+			}
+		}
+		
+		alert('program end')
+	</script>
+</body>
+</html>
