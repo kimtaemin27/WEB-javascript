@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function sample(...items){
+			console.log(items)
+		}
+		
+		const array = [1, 2, 3, 4]
+		
+		console.log('# 전개 연산자 미사용')
+		sample(array)
+		
+		console.log('# 전개 연산자 사용')
+		sample(...array)
+		
+	</script>
+</body>
+</html>
